@@ -17,14 +17,14 @@
 
 .welcome-email-container {
     width: 64rem;
-    height: 78rem;
+    height: auto;
     background: #F8FEFF;
     margin: 0 auto;
 }
 
 .welcome-email-main {
     width: 37.5rem;
-    height: 60.4375rem;
+    height: auto;
     flex-shrink: 0;
     background: #FFF;
     box-shadow: 0px 45px 250px 0px rgba(17, 33, 39, 0.10), 0px -4px 150px 0px rgba(35, 56, 65, 0.05);
@@ -61,28 +61,28 @@
     margin: 0 auto;
     margin-top: 1.44rem;
     overflow: hidden;
-    
+
 }
 
-.dashboard-back{
+.dashboard-back {
     position: relative;
-    
+
 }
 
-.dashboard-orange{
-   
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: auto;
+.dashboard-orange {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
 }
 
-.dashboard-leads{
-   width: 27.67444rem;
-   position: absolute;
-   top:5rem;
-   left:3.94rem;
+.dashboard-leads {
+    width: 27.67444rem;
+    position: absolute;
+    top: 5rem;
+    left: 3.94rem;
     z-index: 1;
 
 }
@@ -95,7 +95,6 @@
 .welcome-email-content {
     margin-left: 1.25rem;
     margin-right: 1.25rem;
-    
 }
 
 .welcome-email-heading {
@@ -104,12 +103,12 @@
     font-size: 2.125rem;
     font-weight: 500;
     margin-bottom: 1.25rem;
-   
+
 }
 
 .welcome-email-para p:first-child {
     margin-bottom: 1.25rem;
-    
+
 }
 
 
@@ -122,15 +121,99 @@
     font-weight: 600;
     border-radius: 0.3125rem;
     background: #077838;
-    border:1px solid transparent;
+    border: 1px solid transparent;
     cursor: pointer;
     margin-bottom: 3.12rem;
 
 }
 
-.welcome-email-btn:hover{
- border: 1px solid #077838;
- color:#077838;
- background-color: #fff;
- transition: all 0.5s ease-in-out;
+.welcome-email-btn:hover {
+    border: 1px solid #077838;
+    color: #077838;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
 }
+
+.welcome-email-started {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.get-started {
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+    color: #1E2224;
+
+}
+
+.welcome-create {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 1.75rem;
+    padding-bottom: 2.5rem;
+    margin-bottom: 1.88rem;
+}
+
+.pipeline-heading {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #1E2224;
+
+}
+
+.pipeline-note {
+    color: #33475B;
+}
+
+.welcome-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.88rem;
+}
+
+.welcom-media-wrapper {
+    border-radius: 50%;
+    padding: 0.5rem 0.7rem;
+    background: #F8951E;
+    color: #fff;
+
+    cursor: pointer;
+}
+
+.welcome-footer-media3,
+.welcome-footer-media2 {
+    margin-left: 0.5rem;
+}
+
+.welcome-footer-media3,
+.welcome-footer-media4 {
+    margin-right: 0.5rem;
+}
+
+.footer-lead-planner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.88rem;
+}
+
+.welcome-footer-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #33475B;
+    font-size: 0.75rem;
+
+}
+
+.welcome-footer-details p:last-child{
+    margin-top: 1.88rem;
+    margin-bottom: 2.5rem;
+    cursor: pointer;
+}
+
