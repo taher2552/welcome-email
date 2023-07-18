@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.welcome-email-font {
+    color: #33475B;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02563rem;
+}
+
+.welcome-email-container {
+    width: 64rem;
+    height: 78rem;
+    background: #F8FEFF;
+}
